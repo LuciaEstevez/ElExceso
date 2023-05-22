@@ -19,7 +19,7 @@ header{
     border-radius: 5em;
     background-color: black;
     position: fixed;
-    padding: 1%;
+    padding: 0.2em;
 }
 
 .menu > ul {
@@ -33,7 +33,7 @@ header{
 
 .menu > ul > li > a {
     display: inline;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-decoration: none;
     color: blanchedalmond;
     font-family: 'Rowdies', cursive;
@@ -73,7 +73,7 @@ p {
 }
 
 .subtitle{
-    padding: 3em;
+    padding: 1em;
 }
 
 .subtitle>div>h2{
@@ -94,7 +94,7 @@ p {
 footer{
     background-color: black;
     color: blanchedalmond;
-    padding: 2em;
+    padding: 1.5em;
     margin-top: 2em;
 }
 
@@ -108,13 +108,14 @@ footer>div{
 footer>h4{
     vertical-align: middle;
     display: inline-block;
-    margin-left: 1.5em
+    margin-left: 1.5em;
+    font-size: 1.2em;
 }
 
 footer>div>img{
     vertical-align: middle;
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     margin-right: 1em
 }
 
@@ -155,8 +156,8 @@ footer>div>img{
 .index-section-1> article > div > img{
     display:flex;
     flex-direction: column;
-    height: 10rem;
-    width: 10rem;
+    height: 8em;
+    width: 8em;
     align-items: center;
 }
 
@@ -200,7 +201,6 @@ footer>div>img{
 .imgs{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 2rem;
 }
 
 
@@ -246,8 +246,8 @@ footer>div>img{
 }
 
 .index-section-3 > div> img{
-    width: 40%;
-    height: 40%;
+    width: 35.4%;
+    height: 35.4%;
 }
 
 .index-section-3>div>div{
@@ -505,38 +505,6 @@ font-size: 3rem;
     font-size: 1rem;
     width: 20em;
 
-/* .recipes-conteiner-2{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    padding: 5rem 5rem 7rem 5rem;
-    
-}
-.recipes-conteiner-2>div{
-    display: flex;
-    flex-direction: row;
-}
-
-.recipes-conteiner-2>img{
-    width: 30%;
-    height: 30%;
-    padding: 2rem;
-}
-
-.recipes-conteiner-ul-2{
-    padding: 2rem;
-    background-color: white;
-    height: 100%;
-    width: 60%;
-    color: black;
-    border-radius: 2rem;
-}
-
-
-.recipes-conteiner-ul-2>ul{
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem; */
 }
 
 .recipes-text-2{
@@ -560,107 +528,105 @@ font-size: 3rem;
 /* TOP 5*/
 
 /* Section 2 */
-.top5_a{
-    height: 40rem;
+.top-paragraph-1{
+    height: 15%;
 }
 
-.top5_a>h2{
-    margin: 2rem;
-    font-size: 3rem;
+.top-paragraph-1>h2{
+    margin: 1em;
+    font-size: 2rem;
 }
 
-.top5_ab>p{
+.top-text>p{
     color:blanchedalmond;
-    font-size: 2rem;
-    width: 30rem;
-    margin-top: 2rem;
+    font-size: 1rem;
+    width: 50%;
+    margin-top: 1em;
 }
 
-.top5_ab>h3{
-    font-size: 2rem;
-    width: 30rem;
+.top-text>h3{
+    font-size: 1em;
+    width: 50%;
     text-align: center;
     color: blanchedalmond;
+    padding-bottom: 1em;
 }
 
-.top5_ab{
+.top-text{
     display: flex;
     flex-direction: column;
-    width: 40rem;
-    height: 38rem;
+    width: 35%;
+    padding: 0.5em;
     align-items: center;
     background-color: black;
 }
 
-.top5_aa>img{
-    width: 38rem;
-    height: 38rem;
+.top-title>img{
+    width: 22%;
+    height: 22%;
 }
 
-.top5_aa{
+.top-title{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: 3em;
 }
 
 
 /* section 3 */
 
-.top5_b{
-    height: 60rem;
+.top-paragraph-2{
+    height: 20%;
 }
 
-.top5_b>h2{
+.top-paragraph-2>h2{
     color: black;
-    font-size: 4rem;
-    margin: 2rem;
-    margin-top: 15rem;
+    font-size: 2em;
+    margin: 1em;
 }
 
 
-.top5_ba{
+.top-title-2{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 45rem;
     padding-top: 2rem;
 }
 
-.top5_ba>a>img{
-    width: 45rem;
-    height: 45rem;
+.top-title-2>a>img{
+    width: 60%;
+    height: 60%;
 }
 
-.top5_bb{
-    width: 45rem;
+.top-text-2{
+    width: 30%;
     background-color: black;
-    padding: 4rem;
-    height: 31rem;
+    padding: 1em;
 }
 
-.top5_bb>h2{
+.top-text-2>h2{
     display: flex;
     justify-content: center;
-    font-size: 6rem;
+    font-size: 3em;
     color: blanchedalmond;
 }
 
-.top5_bb>h3{
+.top-text-2>h3{
     display: flex;
     justify-content: center;
-    margin-top: 0.5rem;
-    font-size: 5rem;
+    margin-top: 0.5em;
+    font-size: 3em;
     color: blanchedalmond;
     font-style: italic;
 }
 
-.top5_bb>h4{
+.top-text-2>h4{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    font-size: 3rem;
+    font-size: 2rem;
     color: blanchedalmond;
 }
 
@@ -671,8 +637,8 @@ font-size: 3rem;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    margin-top: 5rem;
-    margin-bottom: 7rem;
+    margin-top: 3em;
+    padding: 5em;
 }
 
 .cards{
@@ -680,14 +646,14 @@ font-size: 3rem;
     flex-direction: column;
     justify-content: center;
     background-color: black;
-    padding: 2rem;
-    padding-bottom: 3rem;
     border-radius: 1rem;
+    margin: 1em;
+    padding: 1.2em;
 }
 
-.cards>img{
-    width: 25rem;
-    height: 25rem;
+.cards>a>img{
+    width: 100%;
+    height: 100%;
 }
 
 .cardstext{
@@ -699,7 +665,7 @@ font-size: 3rem;
 .cardstext>h3{
     display: flex;
     justify-content: center;
-    font-size: 4rem;
+    font-size: 2em;
     color: blanchedalmond;
     font-style: italic;
     text-align: center;
@@ -709,7 +675,7 @@ font-size: 3rem;
 .cardstext>h4{
     display: flex;
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 1em;
     color: blanchedalmond;
 }
 
@@ -717,26 +683,24 @@ font-size: 3rem;
 /* section 4 */
 
 .questtext{
-    height: 103rem;
+    height: 55%;
     width: 100%;
     background-color: black;
 }
 
 .questtext>div{
-    height: 17rem;
     color: blanchedalmond;
 }
 
 .questtext>div>h2{
-    font-size: 4rem;
+    font-size: 2em;
     padding: 3rem;
 }
 
 .questtext>div>p{
     display: flex;
     justify-content: center;
-    font-size: 2.5rem;
-    margin-left: 2.5rem;
+    font-size: 1.2em;
 }
 
 /* form */
@@ -744,68 +708,68 @@ font-size: 3rem;
 .quest{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 2em;
+    padding-bottom: 2em;
 }
 
 .conteiner{
     background-color: white;
     border-radius: 2rem;
-    height: 80rem;
-    width: 60rem;
+    height: 25%;
+    width: 50%;
 }
 
 
 .questtitle{
     color: black;
-    padding: 1rem;
-    padding-top: 2rem;
+    padding: 1em;
+    padding-top: 1em;
 }
 
 .input-box{
     color: black;
-    font-size: 3rem;
-    padding: 1rem;
-    margin: 2rem;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-left: 1.5em;
 }
 
 .input-box>input{
     display: flex;
-    margin: 1rem;
-    margin-left: 2.5rem;
-    padding: 0.2rem;
-    width: 50rem;
-    border-radius: 0.5rem;
-    font-size: 2rem;
+    margin: 1em;
+    margin-left: 2.5em;
+    padding: 0.2em;
+    width: 70%;
+    border-radius: 0.5em;
+    font-size: 1em;
 }
 
 .input-box>textarea{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
-    width: 50rem;
+    margin-top: 1em;
+    width: 70%;
     overflow-y: scroll;
-    height: 10rem;
-    font-size: 1.5rem;
-    margin: 1rem;
-    margin-left: 2.5rem;
-    padding: 0.2rem;
+    height: 10%;
+    font-size: 1.5em;
+    margin: 1em;
+    margin-left: 2.5em;
+    padding: 0.2em;
 }
 
 .buttonarea{
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
 }
 
 .topbutton{
-    width: 14rem;
-    height: 4rem;
+    width: 20%;
+    height: 5%;
     border-radius: 3rem;
     background-color: black;
     color: blanchedalmond;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 
