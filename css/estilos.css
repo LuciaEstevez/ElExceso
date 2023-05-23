@@ -49,6 +49,93 @@ header{
     margin-bottom: 0%;
 }
 
+.container1-fluid> .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1-fluid> .row> .col-lg-6{
+    width: 20%;
+    height: 30%;
+}
+
+.container1-fluid> .row> .col-lg-1> div> img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container1-fluid> .row> .col-lg-6>div>p{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.container1-fluid> .row> .col-lg-5> .subtitle2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 5em;
+    margin: 0%;
+}
+
+.container1-fluid> .row> .col-lg-5> .subtitle2>h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.container1-fluid> .row> .col-lg-5> .subtitle2> p{
+    font-size: 1.5em;
+}
+
+.container2-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2-fluid> .row>.col-lg-6>.imgs{
+    display: flex;
+    flex-direction: column;
+}
+
+.container2-fluid> .row>.col-lg-6>.imgs>img{
+    width: 50%;
+    height: 50%;
+}
+
+.container2-fluid> .row>.col-lg-6>.imgs>p{
+    width: 50%;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive sm */
+
+
+
+
+
+/* responsive md */
+
+.container-md{
+    padding: 0%;
+}
+
 /* Generales */
 
 h1{
@@ -142,13 +229,12 @@ footer>div>img{
 
 /* Section 2 */
 
-.index-section-1> article {
+/* .index-section-1> article {
     display: flex;
     justify-content: center;
 }
 
 .paragraph1 {
-    padding-top: 6rem;
     width: 18em;
     font-size: 1.2rem;
 }
@@ -183,12 +269,12 @@ footer>div>img{
     text-align: center;
     width: 17rem;
     font-size: 1.1rem;
-}
+} */
 
 
 /* section 3 */
 
-.index-section-2{
+/* .index-section-2{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -235,7 +321,7 @@ footer>div>img{
     width: 90%;
     height: 70%;
 
-}
+} */
 
 /* section 4 */
 
