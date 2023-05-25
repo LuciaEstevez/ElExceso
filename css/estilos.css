@@ -328,6 +328,8 @@ img{width: 100%;}
     }
 }
 
+
+
 /* Recipes*/
 
 /* RecipeButtons */
@@ -508,7 +510,7 @@ justify-content: space-evenly;
 .top-text>p{
     color:blanchedalmond;
     font-size: 1rem;
-    width: 50%;
+    width: 40%;
     margin-top: 1em;
 }
 
@@ -517,7 +519,6 @@ justify-content: space-evenly;
     width: 50%;
     text-align: center;
     color: blanchedalmond;
-    padding-bottom: 1em;
 }
 
 .top-text{
