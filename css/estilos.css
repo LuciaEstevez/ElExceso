@@ -42,51 +42,6 @@ p{font-family: 'Roboto', sans-serif;}
 
 img{width: 100%;}
 
-/* Footer */
-
-.footer{
-    display: flex;
-    align-items: center;
-    background-color: black;
-    color: blanchedalmond;
-    width: 100%;
-    height: 100px;
-    margin: 0%;
-}
-
-.footer img{
-    width: 60px;
-    height: 60px;
-    padding: 1em;
-    margin-right: 3em;
-}
-
-.footer-img{
-    display: flex;
-    justify-content: end;
-}
-
-@media(min-width: 360px) and (max-width:820px) {
-    .footer{
-        margin-top: 1em;
-    }
-
-    .footer-img{
-        display: flex;
-        justify-content: center;
-        margin: 0%;
-    }
-
-    .footer img{
-        margin: 0%;
-    }
-
-    .footer h4{
-        display: none;
-    }
-}
-
-
 /* lg */
 @media (min-width:992px){
     h1{
@@ -162,6 +117,51 @@ img{width: 100%;}
         font-size: 1em;
     }
 }
+
+/* Footer */
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: blanchedalmond;
+    width: 100%;
+    height: 100px;
+    margin: 0%;
+}
+
+.footer img{
+    width: 60px;
+    height: 60px;
+    padding: 1em;
+    margin-right: 3em;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: end;
+}
+
+@media(min-width: 360px) and (max-width:820px) {
+    .footer{
+        margin-top: 1em;
+    }
+
+    .footer-img{
+        display: flex;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .footer img{
+        margin: 0%;
+    }
+
+    .footer h4{
+        display: none;
+    }
+}
+
 
 .titleformat{
     background-color: black;
@@ -353,7 +353,7 @@ img{width: 100%;}
     display: flex;
     justify-content: center;
     padding: 2em;
-    margin: 2em;
+    margin: 1em;
 }
 
 .us-conditions-ol{
@@ -380,12 +380,12 @@ img{width: 100%;}
 
     .us-conditions{
        width: 85%;
-       margin: 2em;
+       margin: 1em;
     }
 
     .us-conditions h2{
         text-align: center;
-        margin: 1em;
+        margin: 1em 0em 1em 0em;
     }
 
     .us-conditions-img img{
@@ -461,6 +461,11 @@ justify-content: space-evenly;
 }
 
 @media(min-width: 360px) and (max-width:820px){
+
+    .recipe-card{
+        height: 44em;
+    }
+
     .recipe-card{
         width: 90%;
         margin-top: 2em;
