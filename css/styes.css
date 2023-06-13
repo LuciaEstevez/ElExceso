@@ -8,6 +8,13 @@ header .navformat {
   width: 100%;
   background-color: black;
 }
+
+.nav-link:hover{
+  color: blanchedalmond !important;
+  text-decoration: underline;
+
+}
+
 header .container-fluid a {
   color: blanchedalmond;
 }
