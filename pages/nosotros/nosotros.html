@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos una comunidad que disfruta de la comida tanto como vos, unite y se parte de nuestra comunidad.">
+    <meta name="keywords" content="comunidad, ser parte, unirse">
     
-    <!-- Browser Tab -->
+<!-- browser tab -->
     <title>El Exceso</title>
     <link rel="shortcut icon" href="../../img/favicon.ico" type=".ico"> 
 
@@ -23,8 +25,11 @@
 <!-- bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-<!-- Page Css -->
- <link rel="stylesheet" href="../../css/estilos.css">
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- page Css -->
+ <link rel="stylesheet" href="../../css/styes.css">
 </head>
 
 <body>
@@ -57,7 +62,8 @@
         </div>
       </nav>
   </header>
-    <main>
+
+  <main>
         <section class="frontpage">
             <img src="../../img/portadas/croisant.png" alt="Muffin de chocolate y mani." class="portada">
 
@@ -75,7 +81,7 @@
       </section>
 
       <section class="row us-paragraph1">
-          <div class="us-text-1 col-lg-6 col-md-6 col-sm-12">
+          <div class="us-text-1 col-lg-6 col-md-6 col-sm-12" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000">
             <h2>¿Como surgió este proyecto?</h2>
             <p>Somos amantes de la comida, al igual que vos, que buscan compartir el sentimiento de comer rico.
                 Creamos esta página con la idea de darnos un gustito cada tanto, NO siempre. Porque sabemos que comer todos los dias con "Exceso" no hace bien.
@@ -92,7 +98,7 @@
         <img src="../../img/Imagenes/mujerescocinando.jpg" alt="Mujeres cocinando juntas.">
       </div>
 
-      <div class="us-text-1 col-lg-6 col-md-6 col-sm-12">
+      <div class="us-text-1 col-lg-6 col-md-6 col-sm-12" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
           <h2>Nuestros Placeres Favoritos</h2>
           <p>Cuando uno encuentra la felicidad busca compartirla con todo el mundo, por esa razón les presentamos la mejor 5 receta, para nosotros, enviadas por personas de nuestra comunidad, dentro de nuestro TOP 5.
           <br>
@@ -101,7 +107,10 @@
       </div>
     </section>
 
-    <section class="row us-conditions-container">
+    <section class="row us-conditions-container" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2500">
+
       <div class="us-conditions">
         <div class="us-conditions-text">
             <h2>Derechos y Condiciones en EXCESO.</h2>
@@ -140,8 +149,13 @@
 </footer>
 
     
-    <!-- bootstrap -->
+<!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
+  <!-- aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
