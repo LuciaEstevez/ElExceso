@@ -90,6 +90,11 @@ footer img {
   padding: 2em;
   margin: 1em;
 }
+
+.index-paragraph1 .subtitle {
+  padding: 0;
+}
+
 .index-paragraph1 .index-text-1 {
   text-align: justify;
   width: 80%;
@@ -174,7 +179,7 @@ footer img {
     font-size: 2.5em;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   h3 {
     font-size: 1em;
@@ -321,10 +326,7 @@ footer img {
 }
 
 .us-conditions {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 50%;
+  width: 100%;
   background-color: black;
   border-radius: 2em;
   color: blanchedalmond;
@@ -333,6 +335,11 @@ footer img {
   padding: 2em;
   margin: 1em;
 }
+
+.us-conditions-text{
+  width: 50%;
+}
+
 .us-conditions .us-conditions-ol {
   display: flex;
   flex-direction: column;
@@ -340,10 +347,11 @@ footer img {
 .us-conditions .us-conditions-img {
   display: flex;
   justify-content: center;
-  width: 100%;
+  align-items: end;
 }
 .us-conditions .us-conditions-img img {
-  width: 40%;
+  width: 50%;
+  height: 50%;
 }
 
 .container-us{
@@ -352,7 +360,7 @@ footer img {
 }
 
 /* Us Media Query*/
-@media (min-width: 360px) and (max-width: 820px) {
+@media (min-width: 360px) and (max-width: 821px) {
   .us-paragraph1{
     margin-top: 1em;
   }
@@ -362,7 +370,6 @@ footer img {
     margin: 1em;
   }
   .us-conditions {
-    width: 85%;
     margin: 1em;
   }
   .us-conditions h2 {
@@ -371,6 +378,15 @@ footer img {
   }
   .us-conditions img {
     width: 80%;
+  }
+
+  .us-conditions-text{
+    width: 100%;
+  }
+  
+  .us-conditions .us-conditions-img img {
+    width: 50%;
+    height: 80%;
   }
 }
 /*recetas*/
@@ -490,7 +506,7 @@ footer img {
     padding: 2em;
   }
   .recipe-card img {
-    width: 300px;
+    width: 50%;
     padding: 5px;
   }
   .recipe-card-img {
@@ -500,13 +516,12 @@ footer img {
   }
 }
 /*recetas saladas y dulces*/
+
 .recipes-conteiner {
-  display: flex;
-  justify-content: center;
   width: 100%;
-  align-items: center;
   padding: 2em 0em 2em 2em;
   margin: 0%;
+  height: 30em;
 }
 
 .recipes-cards-img {
@@ -518,7 +533,6 @@ footer img {
 
 .recipes-conteiner-ul {
   width: 30%;
-  height: 35em;
   background-color: black;
   color: blanchedalmond;
   border-radius: 2em;
@@ -529,6 +543,11 @@ footer img {
   display: flex;
   flex-direction: column;
   padding-left: 0.5em;
+  font-size: 0.7em;
+}
+
+.recipes-text ol{
+  font-size: 0.7em;
 }
 
 .recipes-text {
@@ -540,18 +559,15 @@ footer img {
 
 /* section2 */
 .recipes-conteiner-2 {
-  display: flex;
-  justify-content: center;
   width: 100%;
-  align-items: center;
   background-color: black;
   padding: 2em 0em 2em 2em;
   margin: 0%;
+  height: 30em;
 }
 
 .recipes-conteiner-ul-2 {
   width: 30%;
-  height: 35em;
   background-color: white;
   color: black;
   border-radius: 2em;
@@ -559,10 +575,12 @@ footer img {
   margin: 1em;
 }
 .recipes-conteiner-ul-2 ul {
+  font-size: 0.7em;
   display: flex;
   flex-direction: column;
   padding-left: 0.5em;
 }
+
 
 .recipes-text-2 {
   text-align: justify;
@@ -572,11 +590,14 @@ footer img {
   color: blanchedalmond;
 }
 
+.recipes-text-2 ol{
+  font-size: 0.7em;
+}
+
 /* buttons */
 .recipes-buttons {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
   margin: 1em;
 }
 
@@ -614,9 +635,11 @@ footer img {
     height: 100%;
     margin: 0%;
   }
+
   .recipes-conteiner-ul ul {
     padding-left: 2em;
   }
+
   .recipes-text {
     width: 90%;
     margin: 0%;
@@ -663,7 +686,7 @@ footer img {
 }
 .top-text h3 {
   font-size: 1em;
-  width: 50%;
+  width: 80%;
   text-align: center;
   color: blanchedalmond;
 }
@@ -675,6 +698,7 @@ footer img {
   align-items: center;
   margin-top: 3em;
   margin-bottom: 3em;
+  overflow-x: hidden;
 }
 .top-title img {
   width: 10%;
@@ -908,8 +932,6 @@ footer img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0%;
-    margin: 0%;
     margin-top: 5em;
   }
   .top-title-2 img {
@@ -924,7 +946,7 @@ footer img {
     height: 30%;
   }
 
-  .top-cards-img:hover{
+  .top-cards-img:hover >div{
     animation: scale-up-center 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   }
   
